@@ -11,10 +11,6 @@ def main():
             continue
         print(f"{i["char"]} character was found {i["num"]} times")
     print("\n ------------- End report -------------")
-   # print(f"\n {number} words are found in the document \n")
-   # for i in letters:
-    #    print(f"The {i} character was found {letters[i]} times")
-    
 
 
 def get_book_text(path):
